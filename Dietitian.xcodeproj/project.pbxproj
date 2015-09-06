@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		BC24A6BA1B8EA6D500B21D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24A6B91B8EA6D500B21D66 /* main.m */; };
 		BC24A6BD1B8EA6D500B21D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24A6BC1B8EA6D500B21D66 /* AppDelegate.m */; };
-		BC24A6C01B8EA6D500B21D66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24A6BF1B8EA6D500B21D66 /* ViewController.m */; };
-		BC24A6C31B8EA6D500B21D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC24A6C11B8EA6D500B21D66 /* Main.storyboard */; };
 		BC24A6C51B8EA6D500B21D66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC24A6C41B8EA6D500B21D66 /* Images.xcassets */; };
 		BC24A6C81B8EA6D500B21D66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC24A6C61B8EA6D500B21D66 /* LaunchScreen.xib */; };
 		BC24A6D41B8EA6D500B21D66 /* DietitianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24A6D31B8EA6D500B21D66 /* DietitianTests.m */; };
@@ -32,9 +30,6 @@
 		BC24A6B91B8EA6D500B21D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC24A6BB1B8EA6D500B21D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC24A6BC1B8EA6D500B21D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC24A6BE1B8EA6D500B21D66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC24A6BF1B8EA6D500B21D66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BC24A6C21B8EA6D500B21D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC24A6C41B8EA6D500B21D66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC24A6C71B8EA6D500B21D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BC24A6CD1B8EA6D500B21D66 /* DietitianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietitianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,9 +78,6 @@
 			children = (
 				BC24A6BB1B8EA6D500B21D66 /* AppDelegate.h */,
 				BC24A6BC1B8EA6D500B21D66 /* AppDelegate.m */,
-				BC24A6BE1B8EA6D500B21D66 /* ViewController.h */,
-				BC24A6BF1B8EA6D500B21D66 /* ViewController.m */,
-				BC24A6C11B8EA6D500B21D66 /* Main.storyboard */,
 				BC24A6C41B8EA6D500B21D66 /* Images.xcassets */,
 				BC24A6C61B8EA6D500B21D66 /* LaunchScreen.xib */,
 				BC24A6B71B8EA6D500B21D66 /* Supporting Files */,
@@ -199,7 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC24A6C31B8EA6D500B21D66 /* Main.storyboard in Resources */,
 				BC24A6C81B8EA6D500B21D66 /* LaunchScreen.xib in Resources */,
 				BC24A6C51B8EA6D500B21D66 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +210,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC24A6C01B8EA6D500B21D66 /* ViewController.m in Sources */,
 				BC24A6BD1B8EA6D500B21D66 /* AppDelegate.m in Sources */,
 				BC24A6BA1B8EA6D500B21D66 /* main.m in Sources */,
 			);
@@ -244,14 +234,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BC24A6C11B8EA6D500B21D66 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC24A6C21B8EA6D500B21D66 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC24A6C61B8EA6D500B21D66 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -418,6 +400,7 @@
 				BC24A6D91B8EA6D500B21D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC24A6DA1B8EA6D500B21D66 /* Build configuration list for PBXNativeTarget "DietitianTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +409,7 @@
 				BC24A6DC1B8EA6D500B21D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

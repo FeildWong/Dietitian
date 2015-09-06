@@ -17,6 +17,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    CGRect fram = [[UIScreen mainScreen] bounds];
+    _window = [[UIWindow alloc] initWithFrame:fram];
+    
+    
+    UIViewController *vc = [[UIViewController alloc] init];
+    
+    vc.view.backgroundColor = [UIColor greenColor];
+    
+    [_window setRootViewController:vc];
+    
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 
